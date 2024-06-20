@@ -20,7 +20,7 @@ ENV PATH="/home/appuser/.meteor:${PATH}"
 USER root
 
 # Install app dependencies
-RUN meteor npm install --save react react-dom react-router-dom @mui/material @mui/icons-material @babel/runtime @mui/x-data-grid @mui/base qrcode
+RUN meteor npm install
 
 # Add MongoDB tools
 RUN apt-get update && \
