@@ -1,6 +1,6 @@
 # docker-meteor
 
-After struggling with Docker installation of Meteor, here is my working [Dockerfile](https://github.com/danass/docker-meteor/blob/main/Dockerfile), working using **node 14** and **fresh meteor installation** command `curl https://install.meteor.com/ | sh`.
+After struggling with Docker containerisation of a Meteor installation, I finally succeded and here is my working [Dockerfile](https://github.com/danass/docker-meteor/blob/main/Dockerfile), using **node 14** and **fresh meteor installation** command `curl https://install.meteor.com/ | sh`.
 
 Go in *your_app* folder and place the Dockerfile in it and run following commands:
 
