@@ -20,7 +20,7 @@ ENV PATH="/home/appuser/.meteor:${PATH}"
 USER root
 
 # Install app dependencies
-RUN meteor npm install
+#RUN meteor npm install
 
 # Add MongoDB tools
 RUN apt-get update && \
