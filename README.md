@@ -1,4 +1,4 @@
-# docker-meteor
+# Dockerfile for meteor, 20/06/2024. 
 
 After struggling with Docker containerisation of a Meteor installation, I finally succeded and here is my working [Dockerfile](https://github.com/danass/docker-meteor/blob/main/Dockerfile), using **node 14** and **fresh meteor installation** command `curl https://install.meteor.com/ | sh`.
 
